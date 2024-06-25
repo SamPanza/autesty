@@ -5,10 +5,8 @@ To build from scratch
 
 then
 ```shell
-./mvnw -Dmaven.repo.local=target/repo verify
+./mvnw -Dmaven.repo.local=target/repo verify assembly:single
 ```
-
-(`assembly:single` attached to `package`)
 
 Usage
 1. Unzip autesty-${version}-4at.zip
